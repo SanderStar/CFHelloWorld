@@ -1,0 +1,16 @@
+{
+  "ServiceId": "org.eclipse.orion.client.cf.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.run.pivotal.io",
+      "Org": "star4it",
+      "Space": "development"
+    },
+    "Name": "CFHelloWorld",
+    "Instrumentation": {
+      "domain": "cfapps.io"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
